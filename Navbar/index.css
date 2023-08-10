@@ -1,0 +1,106 @@
+.menubar{
+    background-color: black;
+    
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.logo{
+    color: white;
+    font-size:xx-large;
+}
+
+.logo span{
+    color: peru;
+}
+
+.menubar ul{
+    list-style-type: none;
+    display: flex;
+    margin-right: 80px;
+}
+
+.menubar ul li{
+   padding: 0px 10px;
+   position: relative;
+   
+}
+
+.menubar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+.menubar ul li a:hover{
+    color: blueviolet;
+    transition: all 0.3s;
+}
+
+   
+  .dropdown{
+    display: none;
+}
+
+.menubar ul li:hover  .dropdown{
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: black;
+}
+
+
+.dropdown ul{
+    display: block;
+}
+
+.dropdown ul li{
+    width: 5px;
+    margin-top: 5px;
+}
+
+.dropdown_1{
+    display: none;
+}
+
+.dropdown ul li:hover  .dropdown_1{
+    display: block;
+    position: absolute;
+    background-color: black;
+    top: 30;
+    left: 100;
+
+}
+
+.dropdown_1 ul{
+    width:10px;
+    margin-top: 10px;
+}
+
+.dropdown_1 ul li{
+    width: 10px;
+    margin-top: 10px;
+}
+.pic{
+    background-color: cornsilk;
+    height: 180px;
+}
+
+.pic span{
+    text-decoration: line-through;
+}
+
+.pic i{
+    background-color: yellow;
+}
+
+img{
+    width: 100%;
+    height: 1200px;
+}
